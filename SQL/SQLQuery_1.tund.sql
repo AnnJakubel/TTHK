@@ -150,3 +150,44 @@ select top 50 percent * from Person
 
 --võtab 4 esimest ja järjestab vanuse järgi 
 select top 4 * from Person order by Age desc
+
+--muudab age muutuja int-iks ja n2itab
+--vanuselises j2rjestuses
+select * from Person order by CAST(Age as int)
+
+--kuvab k6ige nooremat isikut
+select MIN(CAST(Age as int)) from Person
+
+--kuvab k6ige vanemat isikut
+select MAX(CAST(Age as int)) from Person
+
+--n2eme konkreetsetes linnades olevate isikute koondvanust 
+--(ehk kokku liidetud)
+select City, SUM(Age) as TotalAge from Person group by City
+
+--muudame koodiga andmetyypi ja selle pikkust
+alter table Person
+alter column Name nvarchar(25)
+
+--kuvab esimeses reas v2lja toodud j2rjestuses
+--ja kuvab Age-i TotalAge-iks
+--j2rjestab Citys olevate nimede j2rgi ja siis GenderId j2rgi
+select City, GenderId, SUM(Age) as TotalAge from Person
+group by City, GenderId order by City
+
+--n2itab, mitu rida selles tabelis
+select COUNT(*) from Person
+
+--n2itab tulemust, et mitu iimest on GenderId v22rtusega 2
+--konkreetses linnas
+--Arvutab vanuse kokku
+select GenderId, City, SUM(Age) as TotalAge, COUNT(Id)
+as [Total Person(s)] from Person
+where GenderId = '2'
+group by GenderId, City
+
+--n2itab 2ra, et mitu inimest on koondvanusena vanemad kui 41
+-- ja kui palju igas linnas elab
+select GenderId, City, SUM(Age) as TotalAge, COUNT(Id)
+as [Total Person(s)] from Person
+group by GenderId, City having SUM(Age) > 41

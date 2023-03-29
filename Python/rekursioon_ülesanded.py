@@ -94,7 +94,12 @@ def sum_digits_recursive(number: int) -> int:
     :param number: non-negative number
     :return: sum of digits in the number
     """
-    pass
+    if number < 10:
+        return number
+    else:
+        all_but_last = number // 10
+        last = number % 10
+        return sum_digits_recursive(all_but_last) + last
 
 
 def pair_star_recursive(s: str) -> str:
@@ -108,4 +113,11 @@ def pair_star_recursive(s: str) -> str:
     :param s: input string
     :return: string with stars between identical chars.
     """
-    pass
+    if len(s) <= 1:
+        return s
+    elif s[0] == s[1]:
+        return s[0] + '*' + pair_star_recursive(s[1:])
+    else:
+        return s[0] + pair_star_recursive(s[1:])
+    
+print(pair_star_recursive("laada"))
