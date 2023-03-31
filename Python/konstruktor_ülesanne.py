@@ -7,23 +7,22 @@ class Empty:
 
 class Person:
     """Represent person with firstname, lastname and age."""
-    def __init__(self):
-        """Initialize."""
-        self.firstname = ""
-        self.lastname = ""
-        self.age = 0
-    
-    def __str__(self):
-        return f"{self.firstname} {self.lastname}, age: {self.age}"
-
-class Student:
-    """Represent student with firstname, lastname and age."""
-
-    def __init__(self, firstname, lastname, age):
+    def __init__(self, firstname="", lastname="", age=0):
         """Initialize."""
         self.firstname = firstname
         self.lastname = lastname
         self.age = age
+    
+    def __str__(self):
+        return f"{self.firstname} {self.lastname}, age: {self.age}"
+
+
+class Student(Person):
+    """Represent student with firstname, lastname and age."""
+
+    def __init__(self, firstname, lastname, age):
+        """Initialize."""
+        super().__init__(firstname, lastname, age)
     
     def __str__(self):
         return f"{self.firstname} {self.lastname}, age: {self.age}"
