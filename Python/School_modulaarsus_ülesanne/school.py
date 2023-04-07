@@ -2,4 +2,7 @@
 
 
 class School:
-    pass
+    """School class."""
+
+    def __init__(self) -> None:
+        pass

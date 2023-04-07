@@ -5,14 +5,16 @@ from student import Student
 class Course:
     """Course class."""
 
-    def __init__(self) -> None:
+    def __init__(self, name: str) -> None:
+        """Course object constructor."""
+        self.name = name
         self.grades = []
     
     def get_grades(self) -> list[tuple[Student, int]]:
         """Returns grades as a list of tuples, consisting of student and grade"""
         return self.grades
 
-    def add_grade(self, student: Student, grade: int) -> None:
+    def add_grade_by_student(self, student: Student, grade: int) -> None:
         """Adds student and grade to course list as tuple."""
         student_grade = (student, grade)
         self.grades.append(student_grade)
@@ -24,8 +26,9 @@ class Course:
             return -1
         else:
             for grade in self.grades:
-                grades_sum += grade
+                grades_sum += grade[1]
             return grades_sum / (len(self.grades) - 1)
     
     def __repr__(self) -> str:
-        return f"{self}"
+        return self.name
+
