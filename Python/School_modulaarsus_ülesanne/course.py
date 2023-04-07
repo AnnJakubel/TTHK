@@ -16,4 +16,16 @@ class Course:
         """Adds student and grade to course list as tuple."""
         student_grade = (student, grade)
         self.grades.append(student_grade)
-
+    
+    def get_average_grade(self) -> float:
+        """Returns average grade of the whole course."""
+        grades_sum = 0
+        if len(self.grades) == 0:
+            return -1
+        else:
+            for grade in self.grades:
+                grades_sum += grade
+            return grades_sum / (len(self.grades) - 1)
+    
+    def __repr__(self) -> str:
+        return f"{self}"
