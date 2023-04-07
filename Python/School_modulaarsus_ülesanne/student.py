@@ -1,5 +1,5 @@
 """Student class with student name and grades."""
-from course import Course
+
 
 class Student:
     """Student class."""
@@ -15,10 +15,10 @@ class Student:
     def get_id(self) -> int:
         return self.id
     
-    def get_grades(self) -> list[tuple[Course, int]]:
+    def get_grades(self):
         return self.grades
     
-    def add_grade_by_course(self, course: Course, grade: int) -> None:
+    def add_grade_by_course(self, course, grade: int) -> None:
         course_grade = (course, grade)
         self.grades.append(course_grade)
 
