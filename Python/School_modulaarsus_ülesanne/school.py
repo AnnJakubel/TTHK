@@ -10,19 +10,25 @@ class School:
         self.name = name
         self.courses = []
         self.students = []
+        self.__next_id = 0
     
     def add_course(self, course: Course) -> None:
         """Adds course to list of courses."""
-        self.courses.append(course)
+        if course not in self.courses:
+            self.courses.append(course)
     
     def add_student(self, student: Student) -> None:
         """"Adds student to list of students."""
-        self.students.append(student)
+        if student not in self.students:
+            self.__next_id += 1
+            student.set_id(self.__next_id)
+            self.students.append(student)
     
     def add_student_grade(self, student: Student, course: Course, grade: int) -> None:
         """Adds student's grade to course and grade to student."""
-        student.add_grade_by_course(course, grade)
-        course.add_grade_by_student(student, grade)
+        if student in self.students and course in self.courses:
+            student.add_grade_by_course(course, grade)
+            course.add_grade_by_student(student, grade)
 
     def get_students(self) -> list[Student]:
         """Returns list of students."""

@@ -10,7 +10,8 @@ class Student:
         self.grades = []
     
     def set_id(self, id: int) -> None:
-        self.id = id
+        if self.id == None:
+            self.id = id
 
     def get_id(self) -> int:
         return self.id
