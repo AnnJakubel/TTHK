@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b43491
+}
+p {
+    color: #515051;
+}
+#potatoes {
+    border: #ababab solid 2px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 94%);
+}
