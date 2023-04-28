@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Border Color</title>
+        <style type="text/css">
+            body {
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: #111111;
+            }
+            p {
+                text-align: center;
+                border-style: solid;
+                border-width: 3xp;
+                width: 200px;
+                padding: 10px;
+            }
+            p.one {
+                border-color: coral;
+            }
+
+            p.two {
+                border-color: palevioletred blanchedalmond darkcyan plum;
+            }
+            p.three {
+                width: 197px;
+                height: 54 px;
+                border: 11px solid antiquewhite;
+                border-image: url("images/dots.gif") 11 11 11 11 stretch;
+            }
+            p.four {
+                width: 197px;
+                height: 54 px;
+                border: 11px solid antiquewhite;
+                border-image: url("images/dots.gif") 11 11 11 11 round;
+            }
+            p.five {
+                border: 5px solid palevioletred;
+                padding: 20px;
+                width: 275px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="one">The ARP Odyssey was introduced in 1072</p>
+        <p class="two">The ARP Odyssey was introduced in 1072</p>
+        <p class="three">The ARP Odyssey was introduced in 1072</p>
+        <p class="four">The ARP Odyssey was introduced in 1072</p>
+        <p class="five"> The Briard originated in, and is named for, 
+            the Brie historic region of north-central France.</p>
+</html>
