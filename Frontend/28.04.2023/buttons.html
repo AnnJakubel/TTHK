@@ -13,6 +13,7 @@
             <input type="checkbox" name="services" value="iTunes">Last.fm
             <input type="checkbox" name="services" value="iTunes">Spotify
             <br>
+
             <br>
             <h3>Dropdown List</h3>
             <p>What device do you listen to music on?</p>
@@ -23,6 +24,7 @@
                 <option value="phone">Phone</option>
             </select>
             <br>
+
             <br>
             <h3>File input box</h3>
             <p>Upload your song:</p>
@@ -30,6 +32,7 @@
             <br>
             <br>
             <input type="submit" value="upload">
+            <br>
 
             <h3>Grouping form elements</h3>
             <fieldset>
@@ -37,8 +40,76 @@
                 <label>Email: <br><input type="text" name="email"><br></label>
                 <label>Phone number: <br><input type="text" name="phone"><br></label>
             </fieldset>
-        </form>
+            <br>
 
+            <br>
+            <h3>Email input</h3>
+            <p>Please enter your email address:</p>
+            <input type="email" name="email">
+            <input type="submit" value="submit">
+            <br>
+
+            <br>
+            <h3>Placeholder</h3>
+            <p>Search: <br></p>
+            <input type="search" name="search" placeholder="Enter keyword">
+            <input type="submit" value="search">
+            <br>
+
+            <br>
+            <h3>URL input</h3>
+            <p>Please enter your website address: </p>
+            <input type="url" name="website">
+            <input type="submit" value="submit">
+            <br>
+            <br>
+            <h3>Image button</h3>
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email"><br>
+            <input type="image" src="images/subscribe-button-transparent-green-2.png" width="100">
+            <br>
+
+            <br>
+            <h3>Radio buttons</h3>
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="male" type="radio" name="gender" value="f">
+            <label for="male">Male</label>
+            <br>
+
+            <br>
+            <h3>Multiple Select box</h3>
+            <p>Do you play any of the following instruments? <br>(You can select more than one)</p>
+            <select name="instruments" size="3" multiple="multiple" id="instruments">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="piano">Piano</option>
+                <option value="drums">Drums</option>
+                <option value="bass">Bass</option>
+                <option value="violin">Violin</option>
+                <option value="flute">Flute</option>
+                <option value="saxophone">Saxophone</option>
+            </select>
+            <br>
+
+            <br>
+            <h3>Password</h3>
+            <p>
+                Username:
+            <input type="text" name="username" size="15" maxlength="30">
+            </p>
+            <p>
+                Password:
+                <input type="password" name="password" size="15" maxlength="30">
+            </p>
+            <br>
+
+            <br>
+            <h3>Text area</h3>
+            <p>Kirjuta siia kasti midagi:</p>
+            <textarea name="comments" id="" cols="20" rows="4" placeholder="Kirjuta oma kommentaar"></textarea>
+        </form>
+        <br>
+        <hr>
         <form action="http://www.example.com/bookings" method="post">
             <h3>Date input</h3>
             <label for="username">Departure date: </label>
