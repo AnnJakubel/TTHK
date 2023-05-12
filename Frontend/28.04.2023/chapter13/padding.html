@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Min height, max height</title>
+        <style type="text/css">
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: black;
+            }
+            h2, p {
+                width: 400px;
+                font-size: 90%;
+                line-height: 1.2;
+            }
+            h2 {
+                color: cornflowerblue;
+                border-bottom: 1px solid cornflowerblue;
+            }
+            p {
+                min-height: 10px;
+                max-height: 100px;
+            }
+            p.paddingText {
+                padding: 10px 50px 20px 30px;
+            }
+            li {
+                display: inline;
+                margin-right: 10px;
+            }
+            li.coming-soon {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lorem Ipsum</h2>
+        <p> 
+            The Briard originated in, and is named for, 
+            the Brie historic region of north-central France.
+        </p>
+
+        <h2>Lorem Ipsum</h2>
+        <p class="paddingText"> 
+            The Briard originated in, and is named for, 
+            the Brie historic region of north-central France.
+        </p>
+
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li class="coming-soon">Services</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </body>
+</html>
