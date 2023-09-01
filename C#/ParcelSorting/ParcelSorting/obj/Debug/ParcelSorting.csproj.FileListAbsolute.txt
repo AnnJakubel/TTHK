@@ -1,3 +1,0 @@
-C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\ParcelSorting.csproj.AssemblyReference.cache
-C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\ParcelSorting.csproj.SuggestedBindingRedirects.cache
-C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\ParcelSorting.csproj.CoreCompileInputs.cache

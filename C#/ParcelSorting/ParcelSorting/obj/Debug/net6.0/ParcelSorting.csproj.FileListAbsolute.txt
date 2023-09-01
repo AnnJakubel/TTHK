@@ -1,0 +1,15 @@
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\bin\Debug\net6.0\ParcelSorting.exe
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\bin\Debug\net6.0\ParcelSorting.deps.json
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\bin\Debug\net6.0\ParcelSorting.runtimeconfig.json
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\bin\Debug\net6.0\ParcelSorting.dll
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\bin\Debug\net6.0\ParcelSorting.pdb
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.csproj.AssemblyReference.cache
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.AssemblyInfoInputs.cache
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.AssemblyInfo.cs
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.csproj.CoreCompileInputs.cache
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.dll
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\refint\ParcelSorting.dll
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.pdb
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ParcelSorting.genruntimeconfig.cache
+C:\Users\mixus\OneDrive\Töölaud\TARge22\TTHK\C#\ParcelSorting\ParcelSorting\obj\Debug\net6.0\ref\ParcelSorting.dll
